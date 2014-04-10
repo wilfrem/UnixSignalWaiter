@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>UnixSignalWaiter</id>
+    <version>0.0.1</version>
+    <authors>wilfrem</authors>
+    <owners>wilfrem</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/wilfrem/UnixSignalWaiter/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>wait unix signal utility, to support C# program running as daemon.</description>
+    <releaseNotes>create it!</releaseNotes>
+    <copyright>Copyright Kazuki Yasufuku(wilfrem) 2014</copyright>
+    <tags>Linux daemon</tags>
+  </metadata>
+  <files>
+    <file src="..\Source\UnixSignalWaiter\bin\Release\UnixSignalWaiter.dll" target="lib" />
+  </files>
+</package>

@@ -17,6 +17,7 @@ namespace WaitDemo
             {
                 try
                 {
+                    //wait until SIGINT/SIGTERM comes
                     SignalWaiter.Instance.WaitExitSignal();
                 }
                 catch (InvalidOperationException)
